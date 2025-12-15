@@ -187,14 +187,14 @@ main()  /* Main function. */
             case 1:
                 customer_arrival_count++;
                 event_count++;
-                fprintf(event_outfile, "%d. Next Event: Customer %d arrived.\n", event_count, customer_arrival_count);
-                fprintf(event_outfile, "\n----------Number of Customer Delayed: %d----------\n\n", customer_arrival_count);
+                fprintf(event_outfile, "%d. Next event: Customer %d Arrival\n", event_count, customer_arrival_count);
+                fprintf(event_outfile, "\n----------No. of customers delayed: %d----------\n\n", customer_arrival_count);
                 arrive();
                 break;
             case 2:
                 customer_departure_count++;
                 event_count++;
-                fprintf(event_outfile, "%d. Next Event: Customer %d departed.\n", event_count, customer_departure_count);
+                fprintf(event_outfile, "%d. Next event: customer %d Departure\n", event_count, customer_departure_count);
                 depart();
                 break;
         }
