@@ -1,1 +1,1 @@
-g++ -o mm1 mm1.c lcgrand.h -lm
+g++ -o 2005105 2005105.c lcgrand.h -lm
